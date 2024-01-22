@@ -1,0 +1,107 @@
+body{
+    background: linear-gradient(123deg, #C8CCCF 5.59%, #97A3A3 84.01%) repeat no-repeat;
+    width: 1440px;
+    height: 1000px;
+}
+.img1{
+    width: 537.395px;
+    height: 512px;
+    flex-shrink: 0;
+    block-size: -1;
+    margin-left: 820px;
+    position: absolute;
+    object-fit: cover;
+    
+}
+
+.img2{width: 462px;
+    height: 508px;
+    flex-shrink: 0;
+    block-size: -1;
+    position: absolute;
+    vertical-align: top;
+    object-fit: cover;
+    overflow: left;
+    margin-top: 500px;
+    margin-left: 100px;
+}
+.div1{
+    display: inline-flex;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    flex-direction: row;
+    color: #363830;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: justify;
+    
+}
+.div2{
+    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 700px;
+    
+    
+    
+}
+.h1{
+    color: #363830;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style:normal;
+    font-weight: 700;
+    line-height: 104px; 
+    position: absolute;
+    margin-top:100px;
+    width: 756px;
+
+}
+.mm{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 40px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 88px;
+    border-radius: 50px;
+    background: linear-gradient(96deg, rgba(255, 255, 255, 0.30) 6.59%, rgba(255, 255, 255, 0.18) 96.07%);
+    backdrop-filter: blur(12px);
+    margin-left: 400px;
+    block-size: 1;
+    width: 820px;
+    position: absolute;
+    margin-left: 500px;
+    
+}
+.button{
+    display: flex;
+    padding: 24px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 36px;
+    background: #363830;
+    color: white;
+    width: 60px;
+    height: 10px;
+    margin-left: 300px;
+    position: absolute;
+}
+.pre{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #363830;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
